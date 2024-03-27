@@ -1,6 +1,7 @@
 package step;
 
-import org.junit.jupiter.api.AfterAll;
+import io.cucumber.java.AfterAll;
+
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
