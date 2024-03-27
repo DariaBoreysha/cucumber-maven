@@ -12,9 +12,4 @@ public class AfterStep {
         closeWebDriver();
     }
 
-/*    @io.cucumber.java.AfterStep
-    public void makeScreenshot(){
-        Selenide.screenshot(System.currentTimeMillis() + "step");
-    }*/
-
 }
