@@ -17,7 +17,7 @@ import static org.junit.Assert.assertTrue;
 public class LoginPageStep {
     @Given("Open website {string}")
     public void openURL(String url){
-        open("https://www.demoblaze.com/");
+        open(url);
     }
 
     @Given("I am on basic page of website")
